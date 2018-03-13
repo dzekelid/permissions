@@ -25,7 +25,7 @@ apis:
   tags: Permissions
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/permissions/master/_listings/google-doubleclick/userprofiles-profileid-accountpermissiongroups-id-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/permissions/master/_listings/google-doubleclick/userprofiles-profileid-accountpermissions-get.md
 x-common:
 - type: x-authentication
   url: https://developers.google.com/ad-exchange/buyer-rest/auth-guide

@@ -39,7 +39,7 @@ apis:
   tags: Permissions
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/permissions/master/_listings/slack/apps-permissions-info-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/permissions/master/_listings/slack/apps-permissions-request-get.md
 x-common:
 - type: x-application-gallery
   url: https://slack.com/apps

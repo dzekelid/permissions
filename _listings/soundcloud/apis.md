@@ -33,7 +33,7 @@ apis:
   tags: Permissions
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/permissions/master/_listings/soundcloud/tracks-track-id-permissions-json-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/permissions/master/_listings/soundcloud/tracks-track-id-permissions-json-put.md
 x-common:
 - type: x-base
   url: https://api.soundcloud.com

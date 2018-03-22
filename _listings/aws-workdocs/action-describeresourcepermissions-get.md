@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeResourcePermissions&k=1:
+  /?Action=DescribeResourcePermissions:
     get:
       summary: ' Describe Resource Permissions '
       description: Describes the permissions of a specified resource

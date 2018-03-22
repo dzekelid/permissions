@@ -34,7 +34,7 @@ apis:
   tags: Permissions
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/paypal/permissions-getpermissions-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/paypal/permissions-requestpermissions-post.md
 x-common:
 - type: x-base-url
   url: https://api.paypal.com

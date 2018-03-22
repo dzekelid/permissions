@@ -14,9 +14,9 @@ tags:
 - Serverless
 - Deployment
 - Amazon Web Services
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/permissions/master/_listings/aws-lambda/apis.yaml
+created: "2018-03-21"
+modified: "2018-03-21"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/aws-lambda/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: AWS Lambda API
@@ -29,7 +29,7 @@ apis:
   tags: Permissions
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/permissions/master/_listings/aws-lambda/action-removepermission-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/aws-lambda/action-addpermission-get.md
 x-common:
 - type: x-authentication
   url: http://docs.aws.amazon.com/lambda/latest/dg/lambda-auth-and-access-control.html

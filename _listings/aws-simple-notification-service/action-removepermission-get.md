@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=RemovePermission&k=1:
+  /?Action=RemovePermission:
     get:
       summary: ' Remove Permission '
       description: Removes a statement from a topic's access control policy

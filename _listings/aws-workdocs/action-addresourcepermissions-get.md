@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=AddResourcePermissions&k=1:
+  /?Action=AddResourcePermissions:
     get:
       summary: ' Add Resource Permissions '
       description: Creates a set of permissions for the specified folder or document

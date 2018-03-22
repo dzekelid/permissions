@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=AddPermission&k=1:
+  /?Action=AddPermission:
     get:
       summary: ' Add Permission '
       description: Adds a permission to the resource policy associated with the specified

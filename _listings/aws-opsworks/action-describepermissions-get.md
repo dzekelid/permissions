@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribePermissions&k=1:
+  /?Action=DescribePermissions:
     get:
       summary: ' Describe Permissions '
       description: Describes the permissions for a specified stack

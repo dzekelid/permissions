@@ -12,9 +12,9 @@ tags:
 - Stack Network
 - Orchestration
 - Amazon Web Services
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/permissions/master/_listings/aws-opsworks/apis.yaml
+created: "2018-03-21"
+modified: "2018-03-21"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/aws-opsworks/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: AWS OpsWorks API
@@ -26,7 +26,7 @@ apis:
   tags: Permissions
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/permissions/master/_listings/aws-opsworks/action-setpermission-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/aws-opsworks/action-describepermissions-get.md
 x-common:
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html

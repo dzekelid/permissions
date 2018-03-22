@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=RemoveAllResourcePermissions&k=1:
+  /?Action=RemoveAllResourcePermissions:
     get:
       summary: ' Remove All Resource Permissions '
       description: Removes all the permissions from the specified resource

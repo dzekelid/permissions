@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=SetPermission&k=1:
+  /?Action=SetPermission:
     get:
       summary: ' Set Permission '
       description: Specifies a user's permissions

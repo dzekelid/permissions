@@ -20,9 +20,9 @@ tags:
 - Hypermedia
 - Getting Started
 - Billing
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/permissions/master/_listings/paypal/apis.yaml
+created: "2018-03-21"
+modified: "2018-03-21"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/paypal/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Paypal
@@ -34,7 +34,7 @@ apis:
   tags: Permissions
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/permissions/master/_listings/paypal/permissions-requestpermissions-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/paypal/permissions-cancelpermissions-post.md
 x-common:
 - type: x-base-url
   url: https://api.paypal.com

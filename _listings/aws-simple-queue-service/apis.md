@@ -17,9 +17,9 @@ tags:
 - Orchestration
 - Jobs
 - Amazon Web Services
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/permissions/master/_listings/aws-simple-queue-service/apis.yaml
+created: "2018-03-21"
+modified: "2018-03-21"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/aws-simple-queue-service/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: AWS Simple Queue Service API
@@ -31,7 +31,7 @@ apis:
   tags: Permissions
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/permissions/master/_listings/aws-simple-queue-service/action-removepermission-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/aws-simple-queue-service/action-addpermission-get.md
 x-common:
 - type: x-change-log
   url: http://aws.amazon.com/releasenotes/Amazon-SQ

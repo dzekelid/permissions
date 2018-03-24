@@ -18,8 +18,8 @@ tags:
 - Audio
 - Audio
 - API LIfeycle
-created: "2018-03-21"
-modified: "2018-03-21"
+created: "2018-03-23"
+modified: "2018-03-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/soundcloud/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -33,7 +33,7 @@ apis:
   tags: Permissions
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/soundcloud/tracks-track-id-permissions-json-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/soundcloud/tracks-track-id-permissions-json-get.md
 x-common:
 - type: x-base
   url: https://api.soundcloud.com

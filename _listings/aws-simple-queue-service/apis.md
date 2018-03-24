@@ -31,7 +31,7 @@ apis:
   tags: Permissions
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/aws-simple-queue-service/action-addpermission-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/aws-simple-queue-service/action-removepermission-get.md
 x-common:
 - type: x-change-log
   url: http://aws.amazon.com/releasenotes/Amazon-SQ

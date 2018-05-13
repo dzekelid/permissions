@@ -38,7 +38,28 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/aws-workdocs/action-removeresourcepermission-get.md
+- name: AWS WorkDocs API Add Resource Permissions
+  description: Creates a set of permissions for the specified folder or document.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Enterprise-Applications_AmazonWorkDocs.png
+  humanURL: https://aws.amazon.com/workdocs/
+  baseURL: http:://{host}//
+  tags: Permissions
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/aws-workdocs/action-addresourcepermissions-get.md
 x-common:
+- type: x-documentation
+  url: http://docs.aws.amazon.com/workdocs/latest/APIReference/
+- type: x-faq
+  url: https://aws.amazon.com/workdocs/faqs/
+- type: x-forum
+  url: https://aws.amazon.com/workdocs/resources/#forum
+- type: x-pricing
+  url: https://aws.amazon.com/workdocs/pricing/
+- type: x-sdk
+  url: https://aws.amazon.com/workdocs/developers/
+- type: x-website
+  url: https://aws.amazon.com/workdocs/
 - type: x-documentation
   url: http://docs.aws.amazon.com/workdocs/latest/APIReference/
 - type: x-faq

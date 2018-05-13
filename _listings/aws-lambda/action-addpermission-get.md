@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Lambda API
+  title: AWS Lambda API Add Permission
   version: 1.0.0
+  description: Adds a permission to the resource policy associated with the specified
+    AWS Lambda function.
 schemes:
 - http
 produces:

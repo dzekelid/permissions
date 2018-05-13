@@ -26,23 +26,23 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/stack-exchange/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Stack Exchange My Write Permissions
-  description: "Returns the write permissions a user has via the api, given an access
-    token.\n \nThe Stack Exchange API gives users the ability to create, edit, and
-    delete certain types. This method returns whether the passed user is capable of
-    performing those actions at all, as well as how many times a day they can.\n \nThis
-    method does not consider the user's current quota (ie. if they've already exhausted
-    it for today) nor any additional restrictions on write access, such as editing
-    deleted comments.\n \nThis method returns a list of write_permissions."
+- name: Stack Exchange Get User Write Permissions
+  description: "Returns the write permissions a user has via the api.\n \nThe Stack
+    Exchange API gives users the ability to create, edit, and delete certain types.
+    This method returns whether the passed user is capable of performing those actions
+    at all, as well as how many times a day they can.\n \nThis method does not consider
+    the user's current quota (ie. if they've already exhausted it for today) nor any
+    additional restrictions on write access, such as editing deleted comments.\n \nThis
+    method returns a list of write_permissions."
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/253_logo.png
   humanURL: https://stackexchange.com/
   baseURL: https://api.stackexchange.com//2.2
   tags: Permissions
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/stack-exchange/me-write-permissions-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/stack-exchange/users-id-write-permissions-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/stack-exchange/me-write-permissions-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/stack-exchange/users-id-write-permissions-get-postman.md
 x-common:
 - type: x-authentication
   url: https://api.stackexchange.com/docs/authentication

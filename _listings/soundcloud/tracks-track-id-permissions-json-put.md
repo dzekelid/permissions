@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: SoundCloud
-  description: Access, host, upload, and comment on audio.
+  title: SoundCloud Update Track Permissions
+  description: Updates the list of permitted users for a track by track id
   version: 1.0.0
 host: api.soundcloud.com
 basePath: /

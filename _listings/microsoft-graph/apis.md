@@ -33,7 +33,33 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/microsoft-graph/groups-group-id-drive-items-item-id-permissions-get.md
+- name: Microsoft Graph API List Permissions On A Drive Item
+  description: List permissions on a DriveItem List the effective permissions of on
+    a DriveItem.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png
+  humanURL: https://developer.microsoft.com/en-us/graph/
+  baseURL: https://graph.microsoft.com//
+  tags: Permissions
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/microsoft-graph/me-drive-items-item-id-permissions-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/microsoft-graph/me-drive-items-item-id-permissions-get-postman.md
 x-common:
+- type: x-change-loge
+  url: https://developer.microsoft.com/en-us/graph/docs/overview/changelog
+- type: x-documentation
+  url: https://developer.microsoft.com/en-us/graph/docs
+- type: x-explorer
+  url: https://developer.microsoft.com/en-us/graph/graph-explorer
+- type: x-getting-started
+  url: https://developer.microsoft.com/en-us/graph/docs/get-started/rest
+- type: x-github
+  url: https://github.com/microsoftgraph
+- type: x-sdk
+  url: https://developer.microsoft.com/en-us/graph/code-samples-and-sdks
+- type: x-website
+  url: https://developer.microsoft.com/en-us/graph/
 - type: x-change-loge
   url: https://developer.microsoft.com/en-us/graph/docs/overview/changelog
 - type: x-documentation

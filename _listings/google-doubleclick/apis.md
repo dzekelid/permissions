@@ -26,15 +26,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/google-doubleclick/userprofiles-profileid-userrolepermissions-id-get.md
-- name: Google Doubleclick API Get Account Permission Groups
-  description: Retrieves the list of account permission groups.
+- name: Google Doubleclick API Get Account Permission Group
+  description: Gets one account permission group by ID.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-double-click.png
   humanURL: https://www.doubleclickbygoogle.com/
   baseURL: https://{host}//
   tags: Permissions
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/google-doubleclick/userprofiles-profileid-accountpermissiongroups-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/google-doubleclick/userprofiles-profileid-accountpermissiongroups-id-get.md
 x-common:
 - type: x-authentication
   url: https://developers.google.com/ad-exchange/buyer-rest/auth-guide

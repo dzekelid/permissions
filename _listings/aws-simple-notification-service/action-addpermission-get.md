@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Simple Notification Service API
+  title: AWS Simple Notification Service API Add Permission
   version: 1.0.0
+  description: Adds a statement to a topic's access control policy, granting access
+    for the specified AWS accounts to the specified actions.
 schemes:
 - http
 produces:

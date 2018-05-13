@@ -30,16 +30,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/aws-lambda/action-removepermission-get.md
-- name: AWS Lambda API Add Permission
-  description: Adds a permission to the resource policy associated with the specified
-    AWS Lambda function.
+- name: AWS Lambda API Remove Permission
+  description: You can remove individual permissions from an resource policy associated
+    with a Lambda function by providing a statement ID that you provided when you
+    added the permission.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSLambda.png
   humanURL: http://docs.aws.amazon.com/lambda/
   baseURL: http:://{host}//
   tags: Permissions
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/aws-lambda/action-addpermission-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/aws-lambda/action-removepermission-get.md
 x-common:
 - type: x-authentication
   url: http://docs.aws.amazon.com/lambda/latest/dg/lambda-auth-and-access-control.html

@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Simple Notification Service API
+  title: AWS Simple Notification Service API Remove Permission
   version: 1.0.0
+  description: Removes a statement from a topic's access control policy.
 schemes:
 - http
 produces:

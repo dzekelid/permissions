@@ -35,16 +35,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/aws-simple-notification-service/action-removepermission-get.md
-- name: AWS Simple Notification Service API Add Permission
-  description: Adds a statement to a topic's access control policy, granting access
-    for the specified AWS accounts to the specified actions.
+- name: AWS Simple Notification Service API Remove Permission
+  description: Removes a statement from a topic's access control policy.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Mobile-Services_AmazonSNS.png
   humanURL: https://aws.amazon.com/sns/
   baseURL: http:://{host}//
   tags: Permissions
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/aws-simple-notification-service/action-addpermission-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/aws-simple-notification-service/action-removepermission-get.md
 x-common:
 - type: x-change-log
   url: http://aws.amazon.com/releasenotes/Amazon-SN

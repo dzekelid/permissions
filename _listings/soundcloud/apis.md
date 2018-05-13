@@ -34,15 +34,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/soundcloud/tracks-track-id-permissions-json-put.md
-- name: SoundCloud Get Track Permissions
-  description: Returns all users with permission for a track by track id
+- name: SoundCloud Update Track Permissions
+  description: Updates the list of permitted users for a track by track id
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Soundcloud-logo.jpg
   humanURL: http://soundcloud.com
   baseURL: https://api.soundcloud.com//
   tags: Permissions
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/soundcloud/tracks-track-id-permissions-json-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/soundcloud/tracks-track-id-permissions-json-put.md
 x-common:
 - type: x-base
   url: https://api.soundcloud.com

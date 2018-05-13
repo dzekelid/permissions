@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Google Doubleclick Merged API
+  title: Google Doubleclick API Get User Role Permissions
   version: 1.0.0
+  description: Gets a list of user role permissions, possibly filtered.
 schemes:
 - http
 produces:

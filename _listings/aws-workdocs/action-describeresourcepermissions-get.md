@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS WorkDocs API
+  title: AWS WorkDocs API Describe Resource Permissions
   version: 1.0.0
+  description: Describes the permissions of a specified resource.
 schemes:
 - http
 produces:

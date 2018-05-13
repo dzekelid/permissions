@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Lambda API
+  title: AWS Lambda API Remove Permission
   version: 1.0.0
+  description: You can remove individual permissions from an resource policy associated
+    with a Lambda function by providing a statement ID that you provided when you
+    added the permission.
 schemes:
 - http
 produces:

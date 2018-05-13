@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Simple Queue Service API
+  title: AWS Simple Queue Service API Add Permission
   version: 1.0.0
+  description: Adds a permission to a queue for a specific.
 schemes:
 - http
 produces:

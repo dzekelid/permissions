@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS OpsWorks API
+  title: AWS OpsWorks API Describe Permissions
   version: 1.0.0
+  description: Describes the permissions for a specified stack.
 schemes:
 - http
 produces:

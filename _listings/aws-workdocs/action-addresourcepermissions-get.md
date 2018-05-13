@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS WorkDocs API
+  title: AWS WorkDocs API Add Resource Permissions
   version: 1.0.0
+  description: Creates a set of permissions for the specified folder or document.
 schemes:
 - http
 produces:

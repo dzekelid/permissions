@@ -35,16 +35,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/paypal/permissions-requestpermissions-post.md
-- name: Paypal Get Permissions
-  description: Use the GetPermissons API operation to obtain the permissions associated
-    with an access token.
+- name: Paypal Request Permissions
+  description: "Use the RequestPermissions API operation to request permissions to
+    execute API operations on a PayPal account holder\u2019s behalf."
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paypal-logo.png
   humanURL: https://paypal.com
   baseURL: https://svcs.sandbox.paypal.com//
   tags: Permissions
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/paypal/permissions-getpermissions-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/paypal/permissions-requestpermissions-post.md
 x-common:
 - type: x-base-url
   url: https://api.paypal.com

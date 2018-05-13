@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS WorkDocs API
+  title: AWS WorkDocs API Remove Resource Permission
   version: 1.0.0
+  description: Removes the permission for the specified principal from the specified
+    resource.
 schemes:
 - http
 produces:

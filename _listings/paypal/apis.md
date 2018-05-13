@@ -35,16 +35,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/paypal/permissions-requestpermissions-post.md
-- name: Paypal Cancel Permissions
-  description: Use the CancelPermissions API operation to cancel access to a set of
-    permissions.
+- name: Paypal Get Permissions
+  description: Use the GetPermissons API operation to obtain the permissions associated
+    with an access token.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paypal-logo.png
   humanURL: https://paypal.com
   baseURL: https://svcs.sandbox.paypal.com//
   tags: Permissions
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/paypal/permissions-cancelpermissions-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/paypal/permissions-getpermissions-post.md
 x-common:
 - type: x-base-url
   url: https://api.paypal.com

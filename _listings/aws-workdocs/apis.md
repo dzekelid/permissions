@@ -38,15 +38,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/aws-workdocs/action-removeresourcepermission-get.md
-- name: AWS WorkDocs API Remove All Resource Permissions
-  description: Removes all the permissions from the specified resource.
+- name: AWS WorkDocs API Remove Resource Permission
+  description: Removes the permission for the specified principal from the specified
+    resource.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Enterprise-Applications_AmazonWorkDocs.png
   humanURL: https://aws.amazon.com/workdocs/
   baseURL: http:://{host}//
   tags: Permissions
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/aws-workdocs/action-removeallresourcepermissions-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/aws-workdocs/action-removeresourcepermission-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/workdocs/latest/APIReference/

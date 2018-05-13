@@ -32,7 +32,34 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/aws-simple-queue-service/action-removepermission-get.md
+- name: AWS Simple Queue Service API Add Permission
+  description: Adds a permission to a queue for a specific.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Application-Services_AmazonSQS.png
+  humanURL: https://aws.amazon.com/sqs/
+  baseURL: http:://{host}//
+  tags: Permissions
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/aws-simple-queue-service/action-addpermission-get.md
 x-common:
+- type: x-change-log
+  url: http://aws.amazon.com/releasenotes/Amazon-SQ
+- type: x-command-line-interface
+  url: http://docs.aws.amazon.com/cli/latest/reference/sqs/index.html
+- type: x-console
+  url: https://console.aws.amazon.com/sqs/
+- type: x-documentation
+  url: http://docs.aws.amazon.com/AWSSimpleQueueService/latest/APIReference/
+- type: x-faq
+  url: https://aws.amazon.com/sqs/faqs/
+- type: x-forum
+  url: https://forums.aws.amazon.com/forum.jspa?forumID=12
+- type: x-getting-started
+  url: https://aws.amazon.com/sqs/getting-started/
+- type: x-pricing
+  url: https://aws.amazon.com/sqs/pricing/
+- type: x-website
+  url: https://aws.amazon.com/sqs/
 - type: x-change-log
   url: http://aws.amazon.com/releasenotes/Amazon-SQ
 - type: x-command-line-interface

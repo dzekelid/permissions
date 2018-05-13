@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Simple Queue Service API
+  title: AWS Simple Queue Service API Remove Permission
   version: 1.0.0
+  description: Revokes any permissions in the queue policy that matches the specified
+    Label parameter.
 schemes:
 - http
 produces:

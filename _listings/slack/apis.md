@@ -40,17 +40,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/slack/apps-permissions-request-get.md
-- name: Slack App Permissions
-  description: Returns list of permissions this app has on a team.
+- name: Slack Request App Permissions
+  description: Allows an app to request additional scopes
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png
   humanURL: https://slack.com
   baseURL: https://slack.com//api
   tags: Permissions
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/slack/apps-permissions-info-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/slack/apps-permissions-request-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/slack/apps-permissions-info-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/slack/apps-permissions-request-get-postman.md
 x-common:
 - type: x-application-gallery
   url: https://slack.com/apps

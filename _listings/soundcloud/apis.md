@@ -6,10 +6,10 @@ description: SoundCloud is a music and podcast streaming platform that lets you 
   now!
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/252-soundcloud.jpg
 x-kinRank: "9"
-x-alexaRank: "114"
+x-alexaRank: "112"
 tags: Permissions
-created: "2018-06-20"
-modified: "2018-06-20"
+created: "2018-06-25"
+modified: "2018-06-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/soundcloud/apis.md
 specificationVersion: "0.14"
 apis:
@@ -90,6 +90,8 @@ x-common:
   url: http://developers.soundcloud.com
 - type: x-github
   url: https://github.com/soundcloud
+- type: x-linkedin
+  url: https://www.linkedin.com/company/soundcloud/
 - type: x-pricing
   url: https://on.soundcloud.com/
 - type: x-privacy

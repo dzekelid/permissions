@@ -15,52 +15,66 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Permissions
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/aws-simple-notification-service/apis.md
 specificationVersion: "0.14"
 apis:
-- name: AWS Simple Notification Service API Add Permission
-  x-api-slug: aws-simple-notification-service-api
+- name: AWS Simple Notification Service API - Add Permission
+  x-api-slug: actionaddpermission-get
   description: Adds a statement to a topic's access control policy, granting access
     for the specified AWS accounts to the specified actions.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Mobile-Services_AmazonSNS.png
   humanURL: https://aws.amazon.com/sns/
-  baseURL: ://///?Action=AddPermission
-  tags: Permissions
+  baseURL: :///
+  tags: Amazon Web Services, Notifications, SMS, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Messages, Profiles, Relative Data, Service
+    API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/aws-simple-notification-service/actionaddpermission-get-openapi.md
-- name: AWS Simple Notification Service API Remove Permission
-  x-api-slug: aws-simple-notification-service-api
+- name: AWS Simple Notification Service API - Remove Permission
+  x-api-slug: actionremovepermission-get
   description: Removes a statement from a topic's access control policy.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Mobile-Services_AmazonSNS.png
   humanURL: https://aws.amazon.com/sns/
-  baseURL: ://///?Action=RemovePermission
-  tags: Permissions
+  baseURL: :///
+  tags: Amazon Web Services, Notifications, SMS, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Messages, Profiles, Relative Data, Service
+    API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/aws-simple-notification-service/actionremovepermission-get-openapi.md
-- name: AWS Simple Notification Service API
-  x-api-slug: aws-simple-notification-service-api
-  description: Amazon Simple Notification Service (Amazon SNS) is a fast, flexible,
-    fully managed push notification service that lets you send individual messages
-    or to fan-out messages to large numbers of recipients. Amazon SNS makes it simple
-    and cost effective to send push notifications to mobile device users, email recipients
-    or even send messages to other distributed services.With Amazon SNS, you can send
-    notifications to Apple, Google, Fire OS, and Windows devices, as well as to Android
-    devices in China with Baidu Cloud Push. You can use SNS to send SMS messages to
-    mobile device users worldwide.Beyond these endpoints, Amazon SNS can also deliver
-    messages toAmazon Simple Queue Service(SQS),AWS Lambda functions, or to any HTTP
-    endpoint.
+- name: AWS Simple Notification Service API - Add Permission
+  x-api-slug: actionaddpermission-get
+  description: Adds a statement to a topic's access control policy, granting access
+    for the specified AWS accounts to the specified actions.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Mobile-Services_AmazonSNS.png
   humanURL: https://aws.amazon.com/sns/
   baseURL: :///
-  tags: Permissions
+  tags: Amazon Web Services, Notifications, SMS, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Messages, Profiles, Relative Data, Service
+    API
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/aws-simple-notification-service/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/aws-simple-notification-service/actionaddpermission-get-openapi.md
+- name: AWS Simple Notification Service API - Remove Permission
+  x-api-slug: actionremovepermission-get
+  description: Removes a statement from a topic's access control policy.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Mobile-Services_AmazonSNS.png
+  humanURL: https://aws.amazon.com/sns/
+  baseURL: :///
+  tags: Amazon Web Services, Notifications, SMS, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Messages, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/aws-simple-notification-service/actionremovepermission-get-openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://aws.simple.email.service.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://aws.simple.notification.service.stack.network
 - type: x-change-log
   url: http://aws.amazon.com/releasenotes/Amazon-SN
 - type: x-console

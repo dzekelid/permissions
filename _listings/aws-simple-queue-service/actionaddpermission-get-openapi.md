@@ -42,6 +42,27 @@ paths:
           description: OK
       tags:
       - Permissions
+  /?Action=RemovePermission:
+    get:
+      summary: Remove Permission
+      description: Revokes any permissions in the queue policy that matches the specified
+        Label parameter.
+      operationId: removePermission
+      x-api-path-slug: actionremovepermission-get
+      parameters:
+      - in: query
+        name: Label
+        description: The identification of the permission to remove
+        type: string
+      - in: query
+        name: QueueUrl
+        description: The URL of the Amazon SQS queue from which permissions are removed
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Permissions
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

@@ -1,13 +1,11 @@
----
 swagger: "2.0"
 x-collection-name: Cloud Elements
 x-complete: 1
 info:
-  title: Dropbox for Business API
-  description: the-business-version-of-the-dropbox-api-
-  version: "1"
-host: api.dropbox.com
-basePath: /1/team
+  title: zohocrm
+  version: api-v2
+host: console.cloud-elements.com
+basePath: /elements/api-v2/hubs/crm
 schemes:
 - http
 produces:
@@ -38,4 +36,3 @@ paths:
       - Set
       - Member
       - Permissions
----

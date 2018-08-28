@@ -45,6 +45,27 @@ paths:
           description: OK
       tags:
       - Permissions
+  /?Action=RemovePermission:
+    get:
+      summary: Remove Permission
+      description: Removes a statement from a topic's access control policy.
+      operationId: removePermission
+      x-api-path-slug: actionremovepermission-get
+      parameters:
+      - in: query
+        name: Label
+        description: The unique label of the statement you want to remove
+        type: string
+      - in: query
+        name: TopicArn
+        description: The ARN of the topic whose access control policy you wish to
+          modify
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Permissions
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

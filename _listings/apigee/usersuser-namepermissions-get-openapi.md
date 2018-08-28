@@ -122,31 +122,6 @@ paths:
       - Role
       - Permissions
       - Get
-  /organizations/{org_name}/userroles/{role_name}/resourcepermissions:
-    post:
-      summary: Post Organizations Name Userroles Role Name Resourcepermissions
-      description: Adds multiple resource permissions for resource at organization
-        level.
-      operationId: postOrganizationsOrgNameUserrolesRoleNameResourcepermissions
-      x-api-path-slug: organizationsorg-nameuserrolesrole-nameresourcepermissions-post
-      parameters:
-      - in: query
-        name: Content-Type
-        description: Specify the Content Type
-      - in: path
-        name: org_name
-        description: Mention the organization name
-      - in: path
-        name: role_name
-        description: Mention the role name
-      responses:
-        200:
-          description: OK
-      tags:
-      - Organizations
-      - Userroles
-      - Role
-      - Resourcepermissions
   /userroles/{role_name}/permissions:
     get:
       summary: Get Userroles Role Name Permissions
@@ -238,26 +213,6 @@ paths:
       - Role
       - Permissions
       - Get
-  /userroles/{role_name}/resourcepermissions:
-    post:
-      summary: Post Userroles Role Name Resourcepermissions
-      description: Adds multiple resource permissions for resource at global level.
-      operationId: postUserrolesRoleNameResourcepermissions
-      x-api-path-slug: userrolesrole-nameresourcepermissions-post
-      parameters:
-      - in: query
-        name: Content-Type
-        description: Specify the Content Type
-      - in: path
-        name: role_name
-        description: Mention the role name
-      responses:
-        200:
-          description: OK
-      tags:
-      - Userroles
-      - Role
-      - Resourcepermissions
   /users/{user_name}/permissions:
     get:
       summary: Get Users User Name Permissions

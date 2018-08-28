@@ -31,6 +31,28 @@ paths:
       tags:
       - Messaging
       - Permissions
+  /apps.permissions.request:
+    get:
+      summary: Request App Permissions
+      description: Allows an app to request additional scopes
+      operationId: apps_permissions_request
+      x-api-path-slug: apps-permissions-request-get
+      parameters:
+      - in: query
+        name: scopes
+        description: A comma separated list of scopes to request for
+      - in: query
+        name: token
+        description: Authentication token
+      - in: query
+        name: trigger_id
+        description: Token used to trigger the permissions API
+      responses:
+        200:
+          description: OK
+      tags:
+      - Messaging
+      - Permissions
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

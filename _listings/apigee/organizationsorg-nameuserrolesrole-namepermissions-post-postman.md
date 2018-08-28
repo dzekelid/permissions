@@ -580,7 +580,7 @@
             "body": {
               "mode": "raw"
             },
-            "description": "Gets the deployments for an API Proxyâs revision for an environment in an organization."
+            "description": "Gets the deployments for an API Proxy�????s revision for an environment in an organization."
           },
           "response": [
             {

@@ -1,0 +1,584 @@
+{
+	"name": "Streadata.io API Gallery - Permissions",
+	"description": "This is a repository of permissions APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/permissions.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-28",
+	"url": "http://permissions.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "SendGrid",
+			"x-api-slug": "sendgrid",
+			"description": "Delivering your transactional and marketing emails through the worlds largest cloud-based email delivery platform. Send with confidence.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg",
+			"humanURL": "http://sendgrid.com",
+			"baseURL": "https:///",
+			"tags": "Permissions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/sendgrid/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Dropbox",
+			"x-api-slug": "dropbox",
+			"description": "Dropbox is a modern workspace designed to reduce busywork-so you can focus on the things that matter. Sign in and put your creative energy to work.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg",
+			"humanURL": "http://dropbox.com",
+			"baseURL": "https://api-notify.dropbox.com//1",
+			"tags": "Permissions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/dropbox/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Facebook",
+			"x-api-slug": "facebook",
+			"description": "Create an account or log into Facebook. Connect with friends, family and other people you know. Share photos and videos, send messages and get updates.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg",
+			"humanURL": "http:///business",
+			"baseURL": "https:///",
+			"tags": "Permissions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/facebook/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "PayPal",
+			"x-api-slug": "paypal",
+			"description": "PayPal is the faster, safer way to send money, make an online payment, receive money or set up a merchant account.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/237-paypal.jpg",
+			"humanURL": "https://paypal.com",
+			"baseURL": "https://svcs.sandbox.paypal.com//",
+			"tags": "Permissions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/paypal/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "SoundCloud",
+			"x-api-slug": "soundcloud",
+			"description": "SoundCloud is a music and podcast streaming platform that lets you listen to millions of songs from around the world, or upload your own. Start listening now!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/252-soundcloud.jpg",
+			"humanURL": "http://soundcloud.com",
+			"baseURL": "https://api.soundcloud.com//",
+			"tags": "Permissions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/soundcloud/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Atlassian",
+			"x-api-slug": "atlassian",
+			"description": "Millions of users globally rely on Atlassian products every day for improving software development, project management, collaboration, and code quality.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg",
+			"humanURL": "http://atlassian.com/",
+			"baseURL": "https:////",
+			"tags": "Permissions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/atlassian/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Cloud Elements",
+			"x-api-slug": "cloud-elements",
+			"description": "Cloud Elements is the leading API integration platform for SaaS app providers and the digital enterprise. Turn integration into your competitive advantage.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/9066-cloud-elements.jpg",
+			"humanURL": "http://www.cloud-elements.com/",
+			"baseURL": "://console.cloud-elements.com//elements/api-v2/hubs/crm",
+			"tags": "Permissions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/cloud-elements/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Slack",
+			"x-api-slug": "slack",
+			"description": "Slack is a team communication application providing services such as real-time messaging, archiving, and to search for modern teams. It offers one-on-one messaging, private groups, persistent chat rooms, and direct messaging as well as group chats organized by topic. All content inside Slack is searchable from one search box and it integrates with a number of third-party services, including Google Docs, Dropbox, Heroku, Crashlytics, GitHub, and Zendesk.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png",
+			"humanURL": "https://api.slack.com",
+			"baseURL": "https://slack.com//api",
+			"tags": "Permissions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/slack/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Lambda",
+			"x-api-slug": "aws-lambda",
+			"description": "AWS Lambda is a zero-administration compute platform for back-end web developers that runs your code for you in the AWScloudand provides you with a fine-grained pricing structure. AWS Lambda runs your back-end code on its own AWS compute fleet of Amazon Elastic Compute Cloud (Amazon EC2) instances across multiple Availability Zones in a region, which provides the high availability, security, performance, and scalability of the AWS infrastructure.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSLambda.png",
+			"humanURL": "http://docs.aws.amazon.com/lambda/",
+			"baseURL": ":///",
+			"tags": "Permissions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/aws-lambda/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS EC2 Systems Manager",
+			"x-api-slug": "aws-ec2-systems-manager",
+			"description": "Amazon EC2 Systems Manager is a management service that helps you automatically collect software inventory, apply OS patches, create system images, and configure Windows and Linux operating systems. These capabilities help you define and track system configurations, prevent drift, and maintain software compliance of your EC2 and on-premises configurations. By providing a management approach that is designed for the scale and agility of the cloud but extends into your on-premises data center, EC2 Systems Manager makes it easier for you to seamlessly bridge your existing infrastructure with AWS.EC2 Systems Manager is easy to use. Simply access EC2 Systems Manager from the EC2 Management Console, select the instances you want to manage, and define the management tasks you want to perform. EC2 Systems Manager is available now at no cost to manage both your EC2 and on-premises resources.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png",
+			"humanURL": "https://aws.amazon.com/ec2/systems-manager/",
+			"baseURL": ":///",
+			"tags": "Permissions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/aws-ec2-systems-manager/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS OpsWorks",
+			"x-api-slug": "aws-opsworks",
+			"description": "AWS OpsWorks is a configuration management service that uses Chef, an automation platform that treats server configurations as code. OpsWorks uses Chef to automate how servers are configured, deployed, and managed across your Amazon Elastic Compute Cloud (Amazon EC2) instances or on-premises compute environments. OpsWorks has two offerings, AWS Opsworks for Chef Automate, and AWS OpsWorks Stacks.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png",
+			"humanURL": "https://aws.amazon.com/opsworks/",
+			"baseURL": ":///",
+			"tags": "Permissions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/aws-opsworks/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Simple Queue Service",
+			"x-api-slug": "aws-simple-queue-service",
+			"description": "Amazon Simple Queue Service (SQS) is a fast, reliable, scalable, fully managed message queuing service. Amazon SQS makes it simple and cost-effective to decouple the components of a cloud application. You can use Amazon SQS to transmit any volume of data, without losing messages or requiring other services to be always available. Amazon SQS includesstandard queueswith high throughput and at-least-once processing, andFIFO queuesthat provide FIFO (first-in, first-out) delivery and exactly-once processing. With Amazon SQS, you can offload the administrative burden of operating and scaling a highly available messaging cluster, while paying a low price for only what you use.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Application-Services_AmazonSQS.png",
+			"humanURL": "https://aws.amazon.com/sqs/",
+			"baseURL": ":///",
+			"tags": "Permissions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/aws-simple-queue-service/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Simple Notification Service",
+			"x-api-slug": "aws-simple-notification-service",
+			"description": "Amazon Simple Notification Service (Amazon SNS) is a fast, flexible, fully managed push notification service that lets you send individual messages or to fan-out messages to large numbers of recipients. Amazon SNS makes it simple and cost effective to send push notifications to mobile device users, email recipients or even send messages to other distributed services.With Amazon SNS, you can send notifications to Apple, Google, Fire OS, and Windows devices, as well as to Android devices in China with Baidu Cloud Push. You can use SNS to send SMS messages to mobile device users worldwide.Beyond these endpoints, Amazon SNS can also deliver messages toAmazon Simple Queue Service(SQS),AWS Lambda functions, or to any HTTP endpoint.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Mobile-Services_AmazonSNS.png",
+			"humanURL": "https://aws.amazon.com/sns/",
+			"baseURL": ":///",
+			"tags": "Permissions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/aws-simple-notification-service/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS WorkDocs",
+			"x-api-slug": "aws-workdocs",
+			"description": "Amazon WorkDocs is a fully managed, secure enterprise storage and sharing service with strong administrative controls and feedback capabilities that improve user productivity.Users can comment on files, send them to others for feedback, and upload new versions without having to resort to emailing multiple versions of their files as attachments. Users can take advantage of these capabilities wherever they are, using the device of their choice, including PCs, Macs, tablets and phones. Amazon WorkDocs offers IT administrators the option of integrating with existing corporate directories, flexible sharing policies and control of the location where data is stored. Customers can get started using Amazon WorkDocs with a 30-day free trial providing 1 TB of storage per user for up to 50 users.Amazon WorkDocs offers an Administrative SDK, currently in public preview. The Administrative SDK allows you to integrate your applications with Amazon WorkDocs by performing content and permissions updates, and managing users, programmatically. You can sign-up for the public preview here.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Enterprise-Applications_AmazonWorkDocs.png",
+			"humanURL": "https://aws.amazon.com/workdocs/",
+			"baseURL": ":///",
+			"tags": "Permissions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/aws-workdocs/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Doubleclick",
+			"x-api-slug": "google-doubleclick",
+			"description": "The Ad Exchange Buyer REST API allows your Real-Time Bidding application to access and update account information and to submit creatives. The API also allows an application (whether it does static bidding or real-time bidding) to discover direct deals that sellers make available.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-double-click.png",
+			"humanURL": "https://www.doubleclickbygoogle.com/",
+			"baseURL": "https:///",
+			"tags": "Permissions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/google-doubleclick/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Analytics",
+			"x-api-slug": "google-analytics",
+			"description": "Google Analytics gives you the digital analytics tools you need to analyze data from all touchpoints in one place, for a deeper understanding of the customer experience. You can then share the insights that matter with your whole organization.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/logo_lockup_analytics_icon_vertical_black_2x.png",
+			"humanURL": "https://www.google.com/analytics/#?modal_active=none",
+			"baseURL": "https://www.googleapis.com//analytics/v3",
+			"tags": "Permissions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/google-analytics/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Play",
+			"x-api-slug": "google-play",
+			"description": "The Google Play Developer API allows you to perform a number of publishing and app-management tasks. It includes two components: The Subscriptions and In-App Purchases API lets you manage in-app purchases and subscriptions. The Publishing API lets you upload and publish apps, and perform other publishing-related tasks.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-play.png",
+			"humanURL": "https://play.google.com/store",
+			"baseURL": "https:///",
+			"tags": "Permissions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/google-play/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Drive",
+			"x-api-slug": "google-drive",
+			"description": "Google Drive is a file storage and synchronization service operated by Google. It allows users to store files in the cloud, synchronize files across devices, and share files. Google Drive encompasses Google Docs, Sheets and Slides, an office suite that permits collaborative editing of documents, spreadsheets, presentations, drawings, forms, and more.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-drive-logo-new.png",
+			"humanURL": "https://developers.google.com/drive/",
+			"baseURL": "https://www.googleapis.com//drive/v3",
+			"tags": "Permissions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/google-drive/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Cloud Identity Access Management",
+			"x-api-slug": "google-cloud-identity-access-management",
+			"description": "Google Cloud Identity &amp; Access Management (IAM) lets administrators authorize who can take action on specific resources, giving you full control and visibility to manage cloud resources centrally. For established enterprises with complex organizational structures, hundreds of workgroups and potentially many more projects, Cloud IAM provides a unified view into security policy across your entire organization, with built-in auditing to ease compliance processes.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/right-roles.png",
+			"humanURL": "https://cloud.google.com/iam/",
+			"baseURL": "://iam.googleapis.com//",
+			"tags": "Permissions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/google-cloud-identity-access-management/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Tag Manager",
+			"x-api-slug": "google-tag-manager",
+			"description": "Deploy and update measurement tags on your websites and mobile apps without major code changes and app releases. Use Google Tag Manager to manage tags (such as tracking and marketing optimization JavaScript tags) on your site. Without editing your site code, you use GTM user interface to add and update AdWords, Google Analytics, Floodlight, and non-Google tags. This reduces errors and allows you to to deploy tags on your site quickly.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/googl_tag_manager_gplus-250.png",
+			"humanURL": "https://developers.google.com/tag-manager/",
+			"baseURL": "://www.googleapis.com//tagmanager/v1",
+			"tags": "Permissions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/google-tag-manager/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Microsoft Graph",
+			"x-api-slug": "microsoft-graph",
+			"description": "Microsoft Graph exposes multiple APIs from Office 365 and other Microsoft cloud services through a single endpoint: https://graph.microsoft.com. Microsoft Graph simplifies queries that would otherwise be more complex. You can use Microsoft Graph to: Access data from multiple Microsoft cloud services, including Azure Active Directory, Exchange Online as part of Office 365, SharePoint, OneDrive, OneNote, and Planner. Navigate between entities and relationships. Access intelligence and insights from the Microsoft cloud (for commercial users).",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png",
+			"humanURL": "https://developer.microsoft.com/en-us/graph/",
+			"baseURL": "https://graph.microsoft.com//",
+			"tags": "Permissions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/microsoft-graph/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Mattermost",
+			"x-api-slug": "mattermost",
+			"description": "Open source, private cloud Slack-alternative, Workplace messaging for web, PCs and phones. MIT-licensed. Hundreds of contributors. 14 languages. Secure, configurable, and scalable from teams to the enterprise.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/mattermost-logo.png",
+			"humanURL": "https://mattermost.com",
+			"baseURL": "https:///",
+			"tags": "Permissions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/mattermost/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Avaza",
+			"x-api-slug": "avaza",
+			"description": "Avaza is a beautiful online software suite with modules for Project Management, Timesheets, Expenses &amp; Invoicing. Access from anywhere, with any device. Avaza is the leading all-in-one software for running client focused businesses. Avaza allows businesses of all sizes to more easily and effectively manage team projects, time tracking, expense reporting, quoting &amp; invoicing. It can be accessed simply via a web browser from anywhere in the world on any device.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28373-avaza.jpg",
+			"humanURL": "https://www.avaza.com",
+			"baseURL": "https:///",
+			"tags": "Permissions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/avaza/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Trello",
+			"x-api-slug": "trello",
+			"description": "Trusted by millions, Trello is the visual collaboration tool that creates a shared perspective on any project. Trello&rsquo;s boards, lists and cards enable you to organize and prioritize your personal and work life in a fun, flexible and rewarding way.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/trello-logo.png",
+			"humanURL": "http://trello.com",
+			"baseURL": "https://trello.com//1",
+			"tags": "Permissions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/trello/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Click Meter",
+			"x-api-slug": "click-meter",
+			"description": "ClickMeter was founded in 2012 as a byproduct of an experienced web-marketing agency. The ClickMeter System was initially a web tool created to address the needs of our agency to precisely count and track the web-marketing actions we performed for our customers.The system evolved rapidly, and emerged as one of the most widely used software solutions in our agency to collect, analyze, and share data for and with our customers. After few years after the development of the first ClickMeter system, we decided to go live with a service that can be useful to everyone involved in web-marketing activities.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clickmeter-logo.png",
+			"humanURL": "http://clickmeter.com",
+			"baseURL": "https://apiv2.clickmeter.com:80//",
+			"tags": "Permissions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/click-meter/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Apigee",
+			"x-api-slug": "apigee",
+			"description": "Apigee Edge is a platform for developing and managing API proxies. Think of a proxy as an abstraction layer that fronts for your backend service APIs and provides value-added features like security, rate limiting, quotas, analytics, and more. The primary consumers of Edge API proxies are app developers who want to use your backend services.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/apigee-edge.png",
+			"humanURL": "https://docs.apigee.com/api-platform/get-started/what-apigee-edge",
+			"baseURL": "https://api.enterprise.apigee.com//v1/",
+			"tags": "Permissions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/apigee/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "RingCentral",
+			"x-api-slug": "ringcentral",
+			"description": "RingCentral, Inc. (NYSE: RNG) is a global provider of cloud enterprise unified communications and collaboration solutions. More flexible and cost-effective than legacy on-premise systems, RingCentral empowers today&rsquo;s mobile and distributed workforces to be connected anywhere and on any device through voice, video, team messaging, collaboration, SMS, conferencing, online meetings, contact center, and fax. RingCentral provides an open platform that integrates with today&rsquo;s leading business apps while giving customers the flexibility to customize their own workflows.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28867-developer-ringcentral-com.jpg",
+			"humanURL": "http://www.ringcentral.com",
+			"baseURL": "https://platform.ringcentral.com//",
+			"tags": "Permissions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/ringcentral/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "GIG & CROWD",
+			"x-api-slug": "gig--crowd",
+			"description": "A unique system of the order and booking of artists: negotiations, coordination of conditions, convenient reminders of fee payment terms and rider preparation.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gigandcrowd.png",
+			"humanURL": "https://gigandcrowd.com",
+			"baseURL": "https://gigandcrowd.com//",
+			"tags": "Permissions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/gig--crowd/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Dezrez",
+			"x-api-slug": "dezrez",
+			"description": "Cloud based estate agent software , sales & letting agent software, estate agent website design and property management software - Dezrez  Services",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg",
+			"humanURL": "https://www.dezrez.com",
+			"baseURL": "https://api.dezrez.com//",
+			"tags": "Permissions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/dezrez/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Xibo",
+			"x-api-slug": "xibo",
+			"description": "Xibo Digital Signage is a low-cost, high performance solution to launch your business, workplace or organisation into the future. Xibo doesn&rsquo;t just replicate print media, but actively increases engagement allowing you to deliver your message more effectively than ever before.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xibo-digital-signage-logo.jpeg",
+			"humanURL": "http://www.xibo.org.uk",
+			"baseURL": "https:////api",
+			"tags": "Permissions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/xibo/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Permissions",
+	"include": [
+		{
+			"name": "SendGrid",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/sendgrid/apis.yaml"
+		},
+		{
+			"name": "Dropbox",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/dropbox/apis.yaml"
+		},
+		{
+			"name": "Facebook",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/facebook/apis.yaml"
+		},
+		{
+			"name": "PayPal",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/paypal/apis.yaml"
+		},
+		{
+			"name": "SoundCloud",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/soundcloud/apis.yaml"
+		},
+		{
+			"name": "Atlassian",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/atlassian/apis.yaml"
+		},
+		{
+			"name": "Cloud Elements",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/cloud-elements/apis.yaml"
+		},
+		{
+			"name": "Slack",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/slack/apis.yaml"
+		},
+		{
+			"name": "AWS Lambda",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/aws-lambda/apis.yaml"
+		},
+		{
+			"name": "AWS EC2 Systems Manager",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/aws-ec2-systems-manager/apis.yaml"
+		},
+		{
+			"name": "AWS OpsWorks",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/aws-opsworks/apis.yaml"
+		},
+		{
+			"name": "AWS Simple Queue Service",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/aws-simple-queue-service/apis.yaml"
+		},
+		{
+			"name": "AWS Simple Notification Service",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/aws-simple-notification-service/apis.yaml"
+		},
+		{
+			"name": "AWS WorkDocs",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/aws-workdocs/apis.yaml"
+		},
+		{
+			"name": "Google Doubleclick",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/google-doubleclick/apis.yaml"
+		},
+		{
+			"name": "Google Analytics",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/google-analytics/apis.yaml"
+		},
+		{
+			"name": "Google Play",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/google-play/apis.yaml"
+		},
+		{
+			"name": "Google Drive",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/google-drive/apis.yaml"
+		},
+		{
+			"name": "Google Cloud Identity Access Management",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/google-cloud-identity-access-management/apis.yaml"
+		},
+		{
+			"name": "Google Tag Manager",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/google-tag-manager/apis.yaml"
+		},
+		{
+			"name": "Microsoft Graph",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/microsoft-graph/apis.yaml"
+		},
+		{
+			"name": "Mattermost",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/mattermost/apis.yaml"
+		},
+		{
+			"name": "Avaza",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/avaza/apis.yaml"
+		},
+		{
+			"name": "Trello",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/trello/apis.yaml"
+		},
+		{
+			"name": "Click Meter",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/click-meter/apis.yaml"
+		},
+		{
+			"name": "Apigee",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/apigee/apis.yaml"
+		},
+		{
+			"name": "RingCentral",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/ringcentral/apis.yaml"
+		},
+		{
+			"name": "GIG & CROWD",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/gig--crowd/apis.yaml"
+		},
+		{
+			"name": "Dezrez",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/dezrez/apis.yaml"
+		},
+		{
+			"name": "Xibo",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/xibo/apis.yaml"
+		}
+	]
+}

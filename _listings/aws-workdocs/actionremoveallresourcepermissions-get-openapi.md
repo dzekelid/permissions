@@ -61,6 +61,31 @@ paths:
           description: OK
       tags:
       - Permissions
+  /?Action=RemoveResourcePermission:
+    get:
+      summary: Remove Resource Permission
+      description: Removes the permission for the specified principal from the specified
+        resource.
+      operationId: removeResourcePermission
+      x-api-path-slug: actionremoveresourcepermission-get
+      parameters:
+      - in: query
+        name: PrincipalId
+        description: The principal ID of the resource
+        type: string
+      - in: query
+        name: PrincipalType
+        description: The principal type of the resource
+        type: string
+      - in: query
+        name: ResourceId
+        description: The ID of the resource
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Permissions
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

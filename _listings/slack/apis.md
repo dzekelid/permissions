@@ -11,53 +11,74 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: Permissions
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/slack/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Slack App Permissions
-  x-api-slug: slack
+- name: Slack - App Permissions
+  x-api-slug: apps-permissions-info-get
   description: Returns list of permissions this app has on a team.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png
   humanURL: https://api.slack.com
-  baseURL: https://slack.com//api//apps.permissions.info
-  tags: Messaging,Permissions
+  baseURL: https://slack.com//api
+  tags: Collaboration, My API Stack, Indie EdTech Data Jam, Imports, Getting Started
+    Example, Communications, Change Log Example, Stack Network, Stack, Media, Chats,
+    Messages, Messages, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/slack/apps-permissions-info-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/slack/apps-permissions-info-get-openapi.md
-- name: Slack Request App Permissions
-  x-api-slug: slack
+- name: Slack - Request App Permissions
+  x-api-slug: apps-permissions-request-get
   description: Allows an app to request additional scopes
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png
   humanURL: https://api.slack.com
-  baseURL: https://slack.com//api//apps.permissions.request
-  tags: Messaging,Permissions
+  baseURL: https://slack.com//api
+  tags: Collaboration, My API Stack, Indie EdTech Data Jam, Imports, Getting Started
+    Example, Communications, Change Log Example, Stack Network, Stack, Media, Chats,
+    Messages, Messages, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/slack/apps-permissions-request-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/slack/apps-permissions-request-get-openapi.md
-- name: Slack
-  x-api-slug: slack
-  description: Slack is a team communication application providing services such as
-    real-time messaging, archiving, and to search for modern teams. It offers one-on-one
-    messaging, private groups, persistent chat rooms, and direct messaging as well
-    as group chats organized by topic. All content inside Slack is searchable from
-    one search box and it integrates with a number of third-party services, including
-    Google Docs, Dropbox, Heroku, Crashlytics, GitHub, and Zendesk.
+- name: Slack - App Permissions
+  x-api-slug: apps-permissions-info-get
+  description: Returns list of permissions this app has on a team.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png
   humanURL: https://api.slack.com
   baseURL: https://slack.com//api
-  tags: Permissions
+  tags: Collaboration, My API Stack, Indie EdTech Data Jam, Imports, Getting Started
+    Example, Communications, Change Log Example, Stack Network, Stack, Media, Chats,
+    Messages, Messages, Relative Data, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/slack/apps-permissions-info-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/slack/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/slack/apps-permissions-info-get-openapi.md
+- name: Slack - Request App Permissions
+  x-api-slug: apps-permissions-request-get
+  description: Allows an app to request additional scopes
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png
+  humanURL: https://api.slack.com
+  baseURL: https://slack.com//api
+  tags: Collaboration, My API Stack, Indie EdTech Data Jam, Imports, Getting Started
+    Example, Communications, Change Log Example, Stack Network, Stack, Media, Chats,
+    Messages, Messages, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/slack/apps-permissions-request-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/slack/apps-permissions-request-get-openapi.md
 x-common:
 - type: x-website
   url: https://api.slack.com
+- type: x-api-gallery
+  url: http://site24x7.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://slack.stack.network
 - type: x-application-gallery
   url: https://slack.com/apps
 - type: x-blog

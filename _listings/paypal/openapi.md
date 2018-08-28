@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: PayPal
 x-complete: 1
@@ -44,8 +43,8 @@ paths:
   /Permissions/RequestPermissions:
     post:
       summary: Request Permissions
-      description: "Use the RequestPermissions API operation to request permissions
-        to execute API operations on a PayPal account holder\u2019s behalf."
+      description: Use the RequestPermissions API operation to request permissions
+        to execute API operations on a PayPal account holder???s behalf.
       operationId: Permissions.RequestPermissions.post
       x-api-path-slug: permissionsrequestpermissions-post
       responses:
@@ -54,4 +53,3 @@ paths:
       tags:
       - Payments
       - Permissions
----

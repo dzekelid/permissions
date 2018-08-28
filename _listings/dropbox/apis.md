@@ -7,35 +7,30 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbo
 x-kinRank: "10"
 x-alexaRank: "89"
 tags: Permissions
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/dropbox/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Cloud Elements - Dropbox For Business API Set Member Permissions
-  x-api-slug: cloud-elements--dropbox-for-business-api
+- name: Dropbox for Business API - Set Member Permissions
+  x-api-slug: membersset-permissions-post
   description: Set member permissions.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
   humanURL: http://dropbox.com
-  baseURL: https://api.dropbox.com//1/team//members/set_permissions
-  tags: Set,Member,Permissions
+  baseURL: https://api.dropbox.com//1/team
+  tags: File Storage, Sharing, Storage, Storage, My API Stack, API LIfeyclessss, Indie
+    EdTech Data Jam, Storage, Stack, Technology, Mobile, SaaS, internet, API Provider,
+    API Service Provider, Profiles, Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/dropbox/membersset-permissions-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/dropbox/membersset-permissions-post-openapi.md
-- name: Cloud Elements - Dropbox For Business API
-  x-api-slug: cloud-elements--dropbox-for-business-api
-  description: Dropbox is a modern workspace designed to reduce busywork-so you can
-    focus on the things that matter. Sign in and put your creative energy to work.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
-  humanURL: http://dropbox.com
-  baseURL: https://api.dropbox.com//1/team
-  tags: Permissions
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/dropbox/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://donorschoose.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://dropbox.stack.network
 - type: x-application-management
   url: https://www.dropbox.com/developers/apps
 - type: x-base

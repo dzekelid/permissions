@@ -13,41 +13,6 @@ produces:
 consumes:
 - application/json
 paths:
-  /userprofiles/{profileId}/accountPermissionGroups:
-    get:
-      summary: Get Account Permission Groups
-      description: Retrieves the list of account permission groups.
-      operationId: dfareporting.accountPermissionGroups.list
-      x-api-path-slug: userprofilesprofileidaccountpermissiongroups-get
-      parameters:
-      - in: path
-        name: profileId
-        description: User profile ID associated with this request
-      responses:
-        200:
-          description: OK
-      tags:
-      - Advertising
-      - Permissions Group
-  /userprofiles/{profileId}/accountPermissionGroups/{id}:
-    get:
-      summary: Get Account Permission Group
-      description: Gets one account permission group by ID.
-      operationId: dfareporting.accountPermissionGroups.get
-      x-api-path-slug: userprofilesprofileidaccountpermissiongroupsid-get
-      parameters:
-      - in: path
-        name: id
-        description: Account permission group ID
-      - in: path
-        name: profileId
-        description: User profile ID associated with this request
-      responses:
-        200:
-          description: OK
-      tags:
-      - Advertising
-      - Permissions Group
   /userprofiles/{profileId}/accountPermissions:
     get:
       summary: Get Account Permissions

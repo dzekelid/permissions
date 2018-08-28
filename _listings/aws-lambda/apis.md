@@ -11,50 +11,70 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Permissions
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/aws-lambda/apis.md
 specificationVersion: "0.14"
 apis:
-- name: AWS Lambda API Add Permission
-  x-api-slug: aws-lambda-api
+- name: AWS Lambda API - Add Permission
+  x-api-slug: actionaddpermission-get
   description: Adds a permission to the resource policy associated with the specified
     AWS Lambda function.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSLambda.png
   humanURL: http://docs.aws.amazon.com/lambda/
-  baseURL: ://///?Action=AddPermission
-  tags: Permissions
+  baseURL: :///
+  tags: Amazon Web Services, Serverless, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/aws-lambda/actionaddpermission-get-openapi.md
-- name: AWS Lambda API Remove Permission
-  x-api-slug: aws-lambda-api
+- name: AWS Lambda API - Remove Permission
+  x-api-slug: actionremovepermission-get
   description: You can remove individual permissions from an resource policy associated
     with a Lambda function by providing a statement ID that you provided when you
     added the permission.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSLambda.png
   humanURL: http://docs.aws.amazon.com/lambda/
-  baseURL: ://///?Action=RemovePermission
-  tags: Permissions
+  baseURL: :///
+  tags: Amazon Web Services, Serverless, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/aws-lambda/actionremovepermission-get-openapi.md
-- name: AWS Lambda API
-  x-api-slug: aws-lambda-api
-  description: AWS Lambda is a zero-administration compute platform for back-end web
-    developers that runs your code for you in the AWScloudand provides you with a
-    fine-grained pricing structure. AWS Lambda runs your back-end code on its own
-    AWS compute fleet of Amazon Elastic Compute Cloud (Amazon EC2) instances across
-    multiple Availability Zones in a region, which provides the high availability,
-    security, performance, and scalability of the AWS infrastructure.
+- name: AWS Lambda API - Add Permission
+  x-api-slug: actionaddpermission-get
+  description: Adds a permission to the resource policy associated with the specified
+    AWS Lambda function.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSLambda.png
   humanURL: http://docs.aws.amazon.com/lambda/
   baseURL: :///
-  tags: Permissions
+  tags: Amazon Web Services, Serverless, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/aws-lambda/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/aws-lambda/actionaddpermission-get-openapi.md
+- name: AWS Lambda API - Remove Permission
+  x-api-slug: actionremovepermission-get
+  description: You can remove individual permissions from an resource policy associated
+    with a Lambda function by providing a statement ID that you provided when you
+    added the permission.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSLambda.png
+  humanURL: http://docs.aws.amazon.com/lambda/
+  baseURL: :///
+  tags: Amazon Web Services, Serverless, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/permissions/master/_listings/aws-lambda/actionremovepermission-get-openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://aws.kinesis.analytics.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://aws.lambda.stack.network
 - type: x-authentication
   url: http://docs.aws.amazon.com/lambda/latest/dg/lambda-auth-and-access-control.html
 - type: x-best-practices
